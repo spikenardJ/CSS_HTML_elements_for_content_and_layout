@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: #007474;
+}
+
+h1 {
+    color: lightgray;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    margin: 10px;
+    padding: 30px 30px;
+    font-size: 40px;
+}
+
+#nav1 {
+    margin-left: 300px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    padding: 10px 10px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    margin: 10px;
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    padding: 10px 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 4, 0);
+}
+
+a:hover {
+    color: #3b444b;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 3);
+}
+
+small {
+    display: block;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 40px;
+    border: 3px solid salmon;
+}
+
+img:hover {
+    opacity: 0.5;
+    border-color: aquamarine;
+}
+
+#star_wars {
+    margin-left: 30px;
+    padding-left: 70px;
+    border-radius: 90px 50px 90px 90px;
+}
+
+.button-class {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#pink_floyd {
+    background-color: #696969;
+    border: 3px solid salmon;
+    border-radius: 20px;
+}
+
+#billy_joel {
+    background-color: #126180;
+    border: 3px solid salmon;
+    border-radius: 20px;
+}
+
+#the_faces {
+    background-color: #841b2d;
+    border: 3px solid salmon;
+    border-radius: 20px;
+}
+
+#elton_john {
+    background-color: #009e60;
+    border: 3px solid salmon;
+    border-radius: 20px;
+}
+
+form {
+    background-color: #c9ffe5;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #20b2aa;
+    box-shadow: 00 8px #004953;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #20b2aa;
+}
+
+.button {
+    background-color: #20b2aa;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #004953;
+}

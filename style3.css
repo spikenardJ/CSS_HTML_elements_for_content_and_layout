@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Beiruti&display=swap');
+
+body {
+    background-color: #d3d3d3;
+}
+
+h1, h2, h3, h5 {
+    font-family: "Arsenal SC", sans-serif;
+    text-align: center;
+    color: #3b444b;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h4 {
+    font-family: "Beiruti", sans-serif;
+    text-align: center;
+    color: red;
+    opacity: .5;
+}
+
+hr {
+    border-top: 1px solid red; 
+}
+
+#nav1, #nav2, #nav3, #nav4 {
+    font-family: "Arsenal SC", sans-serif;
+    text-align: center;
+    color: #465945;
+    text-decoration: none;
+}
+
+a {
+    color: #3b444b;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    padding: 10px 10px;
+    margin: 10px;
+    margin-left: 1px;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 4, 0);
+    transition: .3s all;
+}
+
+small {
+    display: block;
+}
+
+a:hover, a:focus {
+    color: #465945;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 3);
+    transform: scale(1.1) perspective(1px)
+}
+
+ul, li {
+    list-style-type: "▸";
+    position: relative;
+    padding: 3px 3px 3px 29px;
+    color: #3b444b;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 40px;
+    border: 3px solid #3b444b;
+}
+
+img:hover {
+    opacity: 0.5;
+    border-color: #465945;
+}
+
+table.products {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 10px;
+    font-family: "Beiruti", sans-serif;
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+table.products th,
+table.products td {
+    color: #3b444b;
+    border: 1px solid #465945;
+    padding: 8px;
+    text-align: left;
+    transition: .4s all;
+}
+
+table.products th:hover, table.products td:hover, table.products th:focus, table.products td:focus {
+    color: #465945;
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 3);
+}
+
+table.products th {
+    background-color: #a9a9a9;
+}
+
+table.products tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+table.products tr:nth-child(odd) {
+    background-color: #c0c0c0;
+}
+
+#contact {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: .4s all;
+}
+
+#contact_button {
+    background-color: #f4f0ec;
+    border-radius: 5px;
+    border: 1px solid #3b444b;
+}

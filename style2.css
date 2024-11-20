@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: #808080;
+}
+
+h1 {
+    color: #fdf5e6;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    margin: 10px;
+    padding: 30px 30px;
+    font-size: 40px;
+}
+
+h5 {
+    color: #808080;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    margin: 10px;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+form {
+    background-color: #ffefd5;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+
+a, #submit {
+    margin-left: 44%;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #cc5500;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+label {
+    font-family: "Arsenal SC", sans-serif;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #cc5500;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Arsenal SC", sans-serif;
+}
+
+input:focus {
+    border-color: #ffa07a;
+    box-shadow: 00 8px #cc5500;
+}
+input:hover {
+    background-color: #cc5500;
+    color: #ffefd5;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #ffa07a;
+}
+
+.button {
+    background-color: #ffa07a;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #cc5500 ;
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    transition: .3s all;
+}
+
+#submit:hover, #submit:focus {
+    transform: scale(1.1) perspective(2px)
+}
